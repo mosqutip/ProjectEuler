@@ -64,4 +64,5 @@ int main()
         pos++;
     }
     printf("%s %d\n","The highest sum of 5 consecutive numbers is:",max);
+    return 0;
 }

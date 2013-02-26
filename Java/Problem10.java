@@ -24,7 +24,7 @@ public class Problem10
 	    return true;
 
         int limit = (int)Math.sqrt(num);
-        for (int i = 2; i <= test; i++)
+        for (int i = 2; i <= limit; i++)
         {
             if (num % i == 0)
                 return false;

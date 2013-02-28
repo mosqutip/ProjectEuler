@@ -12,7 +12,9 @@ int main()
         while(test<=lim)
         {
             if((x%test)==0)
+            {
                 break;
+            }
             test+=2;
         }
         if(test>lim)
@@ -25,7 +27,9 @@ int main()
         while(test<=lim)
         {
             if((x%test)==0)
+            {
                 break;
+            }
             test+=2;
         }
         if(test>lim)
@@ -34,6 +38,6 @@ int main()
         }
         k++;
     }
-    printf("%s %d\n", "The 10001st prime is:",x);
+    printf("%s %d\n","The 10001st prime is:",x);
     return 0;
 }

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#define LIMIT 1000
+#define LIMIT 1500000
 
 int main()
 {
@@ -24,16 +24,15 @@ int main()
             }
         }
     }
-    int i,j,max=0;
+    int i,sum=0;
     for(i=0;i<LIMIT;i++)
     {
-        if(sums[i]>=max)
+        if(sums[i]==1)
         {
-            max=sums[i];
-            j=i;
+            sum++;
         }
     }
-    printf("%s %d\n","The most common Pythagorean triple sum under 1000 is:",j);
+    printf("The number of unique Pythagorean sums under 1500000 is: %d\n",sum);
     return 0;
 }
 

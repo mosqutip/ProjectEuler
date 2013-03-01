@@ -6,7 +6,7 @@ int main()
 {
     int i,j,lim;
     lim=sqrt(LIMIT);
-    int primeArr[(LIMIT-2)]={};
+    int primeArr[(LIMIT)]={};
     primeArr[0]=2;
     primeArr[1]=3;
     for(i=2;i<lim;i++)
